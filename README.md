@@ -24,7 +24,7 @@
 
   <li>Alur Sign-In</li>
   <p align="center">
-    <img src="./assets/flowchart-alur_signIn.png" alt="img-flowchat">
+    <img src="./assets/flowchart-alur_signIn.svg" alt="img-flowchat">
   </p>
 </ol>
 
