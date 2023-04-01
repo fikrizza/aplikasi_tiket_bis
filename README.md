@@ -10,14 +10,13 @@
 <h3>Definisi Project</h3>
 <p>Proyek yang dilakukan merupakan pembuatan aplikasi Pemesanan Tiket Bus dimana aplikasi yang dibuat akan berjalan pada perangkat smartphone. Aplikasi yang dibuat diharapkan dapat melakukan pemesanan tiket, memeriksa pemesanan, menampilkan posisi peta loket pembelian terdekat dan menampilkan kontak customer service.</p>
 
-
 <h3>Environment</h3>
 <p>Aplikasi Android Studio yang akan digunakan sebagai IDE utama dalam pemrograman ini dan kami juga menggunakan github untuk mempermudah media kolaborasi kita, kita juga menggunakan notion untuk memonitoring tugas masing-masing agar lebih tersusun. Adapun, environment luar yang terlibat dalam pembuatan aplikasi yaitu, google cloud sebagai penyedia layanan api peta dan beberapa calon user sebagai data user persona.</p>
 
 <h3>Flowchart</h3>
 <p>Merupakan gambaran dari proses yang terjadi dengan menggunakan flowchart.</p>
 <ol>
-  <li>Membuka Aplikasi</li>
+  <li>Alur Membuka Aplikasi</li>
   <p align="center">
     <img src="./assets/flowchart-membuka_aplikasi.png" alt="img-flowchat">
   </p>
@@ -25,6 +24,31 @@
   <li>Alur Sign-In</li>
   <p align="center">
     <img src="./assets/flowchart-alur_signIn.svg" alt="img-flowchat">
+  </p>
+
+  <li>Alur Sign-Up</li>
+  <p align="center">
+    <img src="./assets/flowchart-alur_signUp.svg" alt="img-flowchat">
+  </p>
+
+  <li>Alur Pencarian</li>
+  <p align="center">
+    <img src="./assets/flowchart-alur_pencarian.svg" alt="img-flowchat">
+  </p>
+
+  <li>Alur Pemesanan</li>
+  <p align="center">
+    <img src="./assets/flowchart-alur_pemesanan.svg" alt="img-flowchat">
+  </p>
+
+  <li>Alur Cetak Tiket</li>
+  <p align="center">
+    <img src="./assets/flowchart-alur_cekTiket.svg" alt="img-flowchat">
+  </p>
+
+  <li>Alur Pembatalan Tiket</li>
+  <p align="center">
+    <img src="./assets/flowchart-alur_pembatalan.svg" alt="img-flowchat">
   </p>
 </ol>
 
