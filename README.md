@@ -17,11 +17,10 @@
 <h3>Sketsa dan Rancangan Alur</h3>
 <ol>
   <li>Membuka Aplikasi</li>
-  <img src="./assets/flowchart-membuka aplikasi.png" alt="img-flowchat">
-
-  <li></li>
+  <p align="center">
+    <img src="./assets/flowchart-membuka aplikasi.png" alt="img-flowchat">
+  </p>
 </ol>
-
 
 <h3>Teknologi yang Digunakan</h3>
 <p>Dalam pembuatan aplikasi Pemesanan Tiket Bus diperlukan teknologi pendukung yang digunakan untuk mempermudah pembuatan aplikasi. Adapun teknologi yang diperlukan sebagai pendukung pembuatan aplikasi, yaitu.</p>
