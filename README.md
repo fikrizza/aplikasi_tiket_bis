@@ -14,11 +14,17 @@
 <h3>Environment</h3>
 <p>Aplikasi Android Studio yang akan digunakan sebagai IDE utama dalam pemrograman ini dan kami juga menggunakan github untuk mempermudah media kolaborasi kita, kita juga menggunakan notion untuk memonitoring tugas masing-masing agar lebih tersusun. Adapun, environment luar yang terlibat dalam pembuatan aplikasi yaitu, google cloud sebagai penyedia layanan api peta dan beberapa calon user sebagai data user persona.</p>
 
-<h3>Sketsa dan Rancangan Alur</h3>
+<h3>Flowchart</h3>
+<p>Merupakan gambaran dari proses yang terjadi dengan menggunakan flowchart.</p>
 <ol>
   <li>Membuka Aplikasi</li>
   <p align="center">
-    <img src="./assets/flowchart-membuka aplikasi.png" alt="img-flowchat">
+    <img src="./assets/flowchart-membuka_aplikasi.png" alt="img-flowchat">
+  </p>
+
+  <li>Alur Sign-In</li>
+  <p align="center">
+    <img src="./assets/flowchart-alur_signIn.png" alt="img-flowchat">
   </p>
 </ol>
 
