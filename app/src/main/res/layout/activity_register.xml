@@ -47,7 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Username"
+                    android:text="Name"
                     android:textSize="16dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/montserrat_bold"/>
@@ -55,7 +55,7 @@
                     android:id="@+id/name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Your Username"
+                    android:hint="Your Name"
                     android:textSize="16dp"
                     android:padding="14dp"
                     android:layout_marginTop="12dp"
