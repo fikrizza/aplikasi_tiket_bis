@@ -8,8 +8,14 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+<<<<<<< HEAD
         android:supportsRtl="true"
         android:theme="@style/Theme.Aplikasi_tiket_bis"
+=======
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Busticketing"
+>>>>>>> c7a8267 (Commit Awal)
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
@@ -19,6 +25,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+<<<<<<< HEAD
+=======
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+>>>>>>> c7a8267 (Commit Awal)
         </activity>
     </application>
 
