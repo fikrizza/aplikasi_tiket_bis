@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="36dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/back_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_backs"
+                android:backgroundTint="@color/white"/>
+            <TextView
+                android:layout_toRightOf="@id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RETURN"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="12dp"
+                android:textColor="#9F9D9D"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Username"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"/>
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Username"
+            android:textSize="16dp"
+            android:padding="14dp"
+            android:layout_marginTop="12dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#889F9D9D"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_edit_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Password"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"/>
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Password"
+            android:textColorHint="#889F9D9D"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:padding="14dp"
+            android:layout_marginTop="12dp"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_edit_text"/>
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:layout_marginTop="290dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/rounded_button"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="12dp">
+            <TextView
+                android:id="@+id/regsiter_plain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Didn't Had Account? Click "
+                android:textSize="12dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="#9F9D9D"/>
+            <TextView
+                android:id="@+id/register"
+                android:layout_toRightOf="@id/regsiter_plain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/here"
+                android:textSize="12dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="#57a0d4" />
+            <TextView
+                android:id="@+id/register_plain_2"
+                android:layout_toRightOf="@id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" To Register"
+                android:textSize="12dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="#9F9D9D"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
