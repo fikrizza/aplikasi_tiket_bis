@@ -82,7 +82,7 @@ public class register extends AppCompatActivity {
                 try {
                     JSONObject respObj = new JSONObject(response);
 
-                    String message = respObj.getString("message");
+                    //String message = respObj.getString("message");
                     Log.d("Register.java", "onResponse: "+response);
                     Toast.makeText(register.this, "Register Success", Toast.LENGTH_SHORT).show();
                 }
