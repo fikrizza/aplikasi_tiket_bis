@@ -37,6 +37,7 @@ public class reservation extends AppCompatActivity {
 
         EditText inputdate = (EditText) findViewById(R.id.##);
         Log.d("Reservation.java", "onCreate: ");
+
     }
 
     protected String generateCode(){
