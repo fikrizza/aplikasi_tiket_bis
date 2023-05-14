@@ -1,4 +1,4 @@
-package com.example.aplikasi_tiket_bis;
+package com.example;
 
 import org.junit.Test;
 
