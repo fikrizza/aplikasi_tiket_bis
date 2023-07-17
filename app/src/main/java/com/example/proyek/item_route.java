@@ -60,6 +60,7 @@ public class item_route extends ArrayAdapter<route> {
         viewHolder.time.setText(dataModel.getTime());
 
         Button editButton = (Button) view.findViewById(R.id.selectedButton);
+
         editButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
