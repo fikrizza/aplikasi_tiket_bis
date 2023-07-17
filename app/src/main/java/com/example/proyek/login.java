@@ -129,6 +129,7 @@ public class login extends AppCompatActivity {
     protected boolean inputChekced(){
         boolean email = !TextUtils.isEmpty(inputEmail.getText().toString());
         boolean pass = !TextUtils.isEmpty(inputPass.getText().toString());
+
         if (email && pass)
             return true;
         Toast.makeText(this, "Please Check Your Input", Toast.LENGTH_SHORT).show();
