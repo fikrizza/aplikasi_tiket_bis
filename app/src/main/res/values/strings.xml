@@ -1,6 +1,15 @@
 <resources>
-    <string name="app_name">busticketing</string>
+    <string name="app_name">Proyek</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="here"><u>Here</u></string>
+    <string name="email">E-Mail</string>
+    <string name="yourEmail">Your E-Mail</string>
+
+    <string-array name="payment">
+        <item>Cash</item>
+        <item>Bank Transfer</item>
+        <item>Digital Payment</item>
+        <item>QRIS</item>
+    </string-array>
 </resources>

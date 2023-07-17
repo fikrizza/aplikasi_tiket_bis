@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F6F6F6"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <LinearLayout
         android:layout_width="match_parent"
@@ -10,84 +10,136 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
             android:padding="24dp"
             android:orientation="vertical"
-            android:background="@drawable/background_rute">
+            android:elevation="4dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/base_report">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_horizontal">
-
+                android:orientation="horizontal">
                 <LinearLayout
-                    android:layout_width="180dp"
+                    android:layout_width="165dp"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat_bold"
                         android:text="Depature"
+                        android:textSize="12dp"
                         android:textColor="@color/black"
-                        android:textSize="16dp" />
-                    <TextView
-                        android:id="@+id/reservedNameLay"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat_medium"
-                        android:paddingTop="16dp"
-                        android:paddingBottom="8dp"
-                        android:text="Testing Depature"
-                        android:textColor="@color/black"
-                        android:textAlignment="textStart"
-                        android:textSize="16dp" />
-                    <TextView
-                        android:id="@+id/timeDepature"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat_extralight"
-                        android:paddingTop="4dp"
-                        android:paddingBottom="16dp"
-                        android:text="11:22"
-                        android:textColor="@color/black"
-                        android:textAlignment="center"
-                        android:textSize="16dp" />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Arrival"
-                        android:textSize="16dp"
-                        android:textColor="@color/black"
-                        android:textAlignment="textEnd"
                         android:fontFamily="@font/montserrat_bold"/>
                     <TextView
-                        android:id="@+id/resevedHospitalLay"
+                        android:id="@+id/itemDepature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:fontFamily="@font/montserrat_medium"
+                        android:textSize="12dp"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="12dp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Arrival"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat_bold"/>
+                    <TextView
+                        android:id="@+id/itemArrival"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:fontFamily="@font/montserrat_medium"
+                        android:textSize="12dp"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="12dp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat_bold"/>
+                    <TextView
+                        android:id="@+id/itemDate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Testing Arrival"
+                        android:text=""
                         android:fontFamily="@font/montserrat_medium"
-                        android:textSize="16dp"
-                        android:textAlignment="textEnd"
-                        android:paddingTop="16dp"
-                        android:paddingBottom="8dp"
+                        android:textSize="12dp"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
                         android:textColor="@color/black"/>
                     <TextView
-                        android:id="@+id/timeArrival"
+                        android:id="@+id/time"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat_extralight"
-                        android:paddingTop="4dp"
-                        android:paddingBottom="16dp"
-                        android:text="13:22"
+                        android:text=""
+                        android:fontFamily="@font/montserrat_medium"
+                        android:textSize="12dp"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="12dp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    android:gravity="right">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price"
+                        android:textSize="12dp"
                         android:textColor="@color/black"
-                        android:textAlignment="center"
-                        android:textSize="16dp" />
+                        android:fontFamily="@font/montserrat_bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">>
+                        <TextView
+                            android:id="@+id/itemPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp "
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textSize="12dp"
+                            android:paddingTop="2dp"
+                            android:paddingBottom="12dp"
+                            android:textColor="@color/medium_blue"/>
+                        <TextView
+                            android:id="@+id/price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textSize="12dp"
+                            android:paddingTop="2dp"
+                            android:paddingBottom="12dp"
+                            android:textColor="@color/medium_blue"/>
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -97,18 +149,20 @@
                 android:gravity="center"
                 android:orientation="horizontal">
                 <Button
-                    android:id="@+id/edit_button"
+                    android:id="@+id/selectedButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/rounded_button_login"
                     android:fontFamily="@font/montserrat_semibold"
                     android:text="Select"
                     android:textColor="@color/white"
-                    android:textSize="16dp"
-                    android:background="@drawable/rounded_button_true"
+                    android:textSize="12dp"
                     app:backgroundTint="@null" />
 
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
