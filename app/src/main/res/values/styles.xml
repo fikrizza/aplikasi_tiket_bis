@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="Widget.Theme.Proyek.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.Proyek.ActionBar.Fullscreen..ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <style name="spinner" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textColor">@color/black_overlay</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Autocomplete">
+        <item name="colorControlNormal">@color/black_overlay</item>
+        <item name="colorControlActivated">@color/black</item>
+    </style>
+
+</resources>
