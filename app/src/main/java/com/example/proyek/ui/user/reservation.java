@@ -97,7 +97,9 @@ public class reservation extends AppCompatActivity {
                                 String price = jsonObject.getString("price");
                                 Log.d(TAG, "onResponse: objResp "+jsonObject);
 
-                                arrReserv.add(new reserved(id_reservation, date, bookCode, id_account, id_route, name, telp, paymentMethod, paymentStatus, depature, arrival, timeDepature, dateDepature, price));
+                                arrReserv.add(new reserved(id_reservation, date, bookCode, id_account, id_route,
+                                                            name, telp, paymentMethod, paymentStatus, depature, arrival,
+                                                            timeDepature, dateDepature, price));
                             }
                         } catch (JSONException e) {
                             throw new RuntimeException(e);
