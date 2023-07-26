@@ -65,6 +65,7 @@ public class register extends AppCompatActivity {
 
     protected void addAccount(String pasEmail, String pasPassword, String pasName){
         String url = "https://overcautious-commis.000webhostapp.com/register.php";
+        //Code Dibawah Digunakan untuk local host
 //        String url = "https://10.0.2.2:80/rpl/register.php";
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);

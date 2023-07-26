@@ -78,6 +78,7 @@ public class dashboard extends Fragment {
         depature = view.findViewById(R.id.inputDepature);
         arrival = view.findViewById(R.id.inputArrival);
 
+        //Depature
         getDepature();
         ArrayAdapter<String> adapterDepature = new ArrayAdapter<String>(getContext(),android.R.layout.simple_dropdown_item_1line,routeDepature);
         depature.setAdapter(adapterDepature);
@@ -90,6 +91,7 @@ public class dashboard extends Fragment {
                 arrival.setAdapter(adapterArrival);
             }
         });
+        //Arrival
         getArrival(depature.getText().toString());
         ArrayAdapter<String> adapterArrival = new ArrayAdapter<String>(getContext(),android.R.layout.simple_dropdown_item_1line,routeArrival);
         arrival.setAdapter(adapterArrival);
